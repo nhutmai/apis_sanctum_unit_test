@@ -1,6 +1,9 @@
 # Setup api
 
-1. xem provider để setup api 
+1. xem provider để setup api
+```terminal
+php artisan install:api
+```
 2. trong usercontroller tạo fuction login để cấp token khi người dùng đăng nhập
 3. bọc các route cần bảo vệ bằng middlware sanctum
 
